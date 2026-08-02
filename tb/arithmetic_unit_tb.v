@@ -1,8 +1,3 @@
-//=====================================================================
-// Testbench : arithmetic_unit_tb
-// Purpose   : Verify ADD, SUB, INC, DEC operations, and carry/overflow
-//             flag generation for normal and edge-case operands.
-//=====================================================================
 `timescale 1ns/1ps
 
 module arithmetic_unit_tb;

@@ -1,9 +1,5 @@
-//=====================================================================
-// Module      : arithmetic_unit
 // Description : Performs ADD, SUB, INC, DEC on 8-bit operands A and B.
-//               Pure combinational logic. Generates Carry/Borrow and
-//               Overflow flags for the selected operation.
-//=====================================================================
+
 module arithmetic_unit (
     input  wire [7:0] A,
     input  wire [7:0] B,
@@ -13,7 +9,6 @@ module arithmetic_unit (
     output reg         overflow
 );
 
-    // Arithmetic operation select codes
     localparam ARITH_ADD = 2'b00;
     localparam ARITH_SUB = 2'b01;
     localparam ARITH_INC = 2'b10;
